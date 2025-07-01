@@ -1,0 +1,12 @@
+{
+  "ocean": ["#1CA3EC", "#1273DE", "#00BFFF", "#00CED1", "#4682B4"],
+  "sea": ["#1E90FF", "#00BFFF", "#5F9EA0", "#20B2AA", "#4682B4"],
+  "beach": ["#F4E2D8", "#FFE5B4", "#7FDBDA", "#55BCC9"],
+  "forest": ["#355E3B", "#228B22", "#6B8E23", "#98FB98"],
+  "sky": ["#87CEEB", "#87CEFA", "#00BFFF", "#1E90FF"],
+  "desert": ["#EDC9AF", "#C19A6B", "#FFD700", "#FFDB58"],
+  "night": ["#0C1446", "#101935", "#2C2A4A", "#3B3C58"],
+  "sunset": ["#FF5E5B", "#FFB347", "#FFD700", "#FFA07A"],
+  "cyberpunk": ["#FF00FF", "#00FFFF", "#FFFF00", "#FF1493"],
+  "vintage": ["#C4A69F", "#B5A58B", "#9E8A7C", "#7B5E57"]
+}

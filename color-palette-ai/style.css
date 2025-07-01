@@ -1,0 +1,77 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+/* Title */
+h1 {
+  margin-bottom: 0.5rem;
+}
+
+/* Instructions */
+p {
+  color: #555;
+}
+
+/* Text input */
+input {
+  width: 300px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button */
+button {
+  margin-left: 0.5rem;
+  padding: 0.55rem 1rem;
+  font-size: 1rem;
+  border: none;
+  background: #0077ff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fcc;
+}
+
+/* Palette container */
+#paletteContainer {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Each swatch + hex code wrapper */
+.swatch-wrapper {
+  margin: 10px;
+  text-align: center;
+}
+
+/* Swatch square */
+.swatch {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.swatch:hover {
+  transform: scale(1.05);
+}
+
+/* Hex code text */
+.hexCode {
+  margin-top: 5px;
+  font-family: monospace;
+  font-size: 0.9rem;
+}
