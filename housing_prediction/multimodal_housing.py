@@ -127,7 +127,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=LR)
 # -------------------------------
 # 5. Train
 # -------------------------------
-print("\n✅ Training started...")
+print("\n Training started")
 for epoch in range(EPOCHS):
     model.train()
     epoch_loss = 0.0
@@ -145,7 +145,7 @@ for epoch in range(EPOCHS):
 # -------------------------------
 # 6. Evaluate + plot
 # -------------------------------
-print("\n✅ Evaluating on test set...")
+print("\n Evaluating on test set")
 model.eval()
 preds = []
 targets_list = []
@@ -158,14 +158,14 @@ with torch.no_grad():
 
 mae = mean_absolute_error(targets_list, preds)
 rmse = np.sqrt(mean_squared_error(targets_list, preds))
-print(f"\n✅ MAE: {mae:.2f}")
-print(f"✅ RMSE: {rmse:.2f}")
+print(f"\n MAE: {mae:.2f}")
+print(f" RMSE: {rmse:.2f}")
 
 # -------------------------------
 # 7. Save model
 # -------------------------------
 torch.save(model.state_dict(), "multimodal_model.pth")
-print("\n✅ Model saved as 'multimodal_model.pth'")
+print("\n Model saved as 'multimodal_model.pth'")
 
 # -------------------------------
 # 8. Plot true vs predicted
