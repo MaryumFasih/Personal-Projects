@@ -9,7 +9,7 @@ import pandas as pd
 # Change this to 'telco_rf_pipeline.joblib' if you prefer Random Forest
 pipeline = joblib.load('telco_logreg_pipeline.joblib')
 
-print("✅ Pipeline loaded successfully!")
+print("Pipeline loaded successfully!")
 
 # -------------------------------
 # 2. Create a new customer record
@@ -48,6 +48,6 @@ print("Predicted Churn:", "Yes" if prediction == 1 else "No")
 print(f"Probability of Churn: {probability:.2%}")
 
 # -------------------------------
-# ✅ If you see 'Yes' or 'No' with probability,
-# ✅ your pipeline works perfectly!
+#  If you see 'Yes' or 'No' with probability,
+#  syour pipeline works perfectly!
 # -------------------------------
